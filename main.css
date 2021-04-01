@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+}
+h1 { 
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+p {color: darkblue;
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+}
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    border: 1px solid;
+}
+td {border: 1px solid;
+padding: 10px;}
+.menu {
+    width: 100%;
+    border: 1px solid darkblue;
+    background-color: darkblue;
+    color: white;
+    font-family: sans-serif;
+    
+}
+.menu-item {
+    font-size: 24px;
+    padding: 10px;
+    display: inline-block;
+}
+.menu-item:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: block;
+}
+.progress {
+    margin: 0 auto;
+    padding: 25px;
+}
+.dropdown {
+    display: none;
+}
+.menu-item:hover .dropdown {
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    position: absolute; 
+    top: 45px; 
+    display: block;
+}
+.dropdown-item:hover {
+    background-color: aqua;
+}
+.label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+.h1 {
+    margin: 0 auto;
+}
